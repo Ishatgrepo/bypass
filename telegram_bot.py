@@ -17,15 +17,15 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Your API Token from BotFather
-TOKEN = 'YOUR_API_TOKEN_HERE'
+TOKEN = '7633587711:AAF9feQ2vAWHdAHbfrOmaiey6q58bR0udi0'
 
 # MongoDB Connection (adjust as necessary)
-MONGO_URI = 'mongodb://localhost:27017/'
-DATABASE_NAME = 'telegram_bot'
+MONGO_URI = 'mongodb+srv://Aspirant1:w22MY1Ls6hH50dof@cluster0.tm9si.mongodb.net/?retryWrites=true&w=majority'
+DATABASE_NAME = 'bypass_bot'
 COLLECTION_NAME = 'messages'
 
 # Log Channel ID (where logs will be sent)
-LOG_CHANNEL_ID = '@your_log_channel_username' or 'log_channel_id_here'
+LOG_CHANNEL_ID = '@your_log_channel_username' or '-1002403245666'
 
 def start(update, context):
     """Send a message when the command /start is issued."""
