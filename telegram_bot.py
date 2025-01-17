@@ -1,4 +1,4 @@
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters
 from telegram import Update
 import logging
 from bypass_shortlink import bypass_shortlink  # Import the bypass function
